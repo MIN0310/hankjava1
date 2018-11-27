@@ -11,7 +11,7 @@ public class PokerGame {
 		
 		int nums[] = new int[5];
 		nums[0] = 55;
-		nums[3] = 80;
+		nums[3] = 70;
 		System.out.println(nums[3]);
 		System.out.println(nums.length);
 		
