@@ -1,6 +1,6 @@
 package com.tom;
 
-import java.util.Random;
+//import java.util.Random;
 
 public class PokerGame {
 
@@ -9,12 +9,13 @@ public class PokerGame {
 		int[] n = new int [10];
 		Card[] c = new Card[10];
 		System.out.println(n[0]);
-		c[0] = new Card(7);
+		c[0] = new Card(10);
 		System.out.println(c[0].get());
 		
 		Poker poker = new Poker();
-		poker.shuffle();
+//		poker.shuffle();
 		poker.print();
+		
 		
 //		int flowers[] = {0x2660, 0x2665, 0x2666, 0x2663};
 //        int numbers[] = {1,2,3,4,5,6,7,8,9,10,11,12,13};
