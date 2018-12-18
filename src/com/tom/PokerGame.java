@@ -5,7 +5,7 @@ package com.tom;
 public class PokerGame {
 
 	public static void main(String[] args) {
-        	
+		      	
 		int[] n = new int [10];
 		Card[] c = new Card[10];
 		System.out.println(n[0]);
