@@ -27,8 +27,8 @@ public class StringTester {
 		for(int i = s.length()-1; i>=0; i--){
 			System.out.print(s.charAt(i));
 		}
-		
 		System.out.println();
+		
 		String s1 = new String("abc");
 		String s2 = new String("abc");
 		System.out.println(s1 == s2);

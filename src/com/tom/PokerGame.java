@@ -9,7 +9,7 @@ public class PokerGame {
 		int[] n = new int [10];
 		Card[] c = new Card[10];
 		System.out.println(n[0]);
-		c[0] = new Card(10);
+		c[0] = new Card(32);
 		System.out.println(c[0].get());
 		
 		Poker poker = new Poker();

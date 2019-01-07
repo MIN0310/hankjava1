@@ -1,7 +1,7 @@
 package com.tom;
 
 public class Card {
-	char[] suits = {'\u2663', '\u2665', '\u2666', '\u2660'};
+	char[] suits = {'\u2663', '\u2666', '\u2665', '\u2660'};
 	int symbol;
 	int value;
 	int suit;
